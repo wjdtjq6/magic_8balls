@@ -26,7 +26,7 @@ class Ball extends StatefulWidget {
 }
 
 class _BallState extends State<Ball> {
-  int BallNumber = Random().nextInt(6);
+  int BallNumber = Random().nextInt(5) +1;
   @override
   Widget build(BuildContext context) {
     return Center(
